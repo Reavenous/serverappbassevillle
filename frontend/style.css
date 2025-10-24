@@ -1,2 +1,69 @@
-body { font-family: sans-serif; max-width: 600px; margin: auto; }
-.post { border-bottom: 1px solid #ccc; margin: 1em 0; padding-bottom: .5em; }
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background-color: #f6f6f6;
+  color: #222;
+}
+
+header {
+  background-color: #20232a;
+  color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav a {
+  color: #61dafb;
+  margin-left: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.article {
+  background: white;
+  max-width: 600px;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.article:hover {
+  transform: translateY(-3px);
+}
+
+.article h2 {
+  margin-top: 0;
+}
+
+.article .date {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+footer {
+  background: #20232a;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
